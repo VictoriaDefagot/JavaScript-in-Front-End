@@ -7,11 +7,11 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-.container{
-  display: none;
-}
 .contenido{
   padding-top: 160px;
+}
+.container{
+  display: none;
 }
 .destacadoPar{
   padding: 15px;
