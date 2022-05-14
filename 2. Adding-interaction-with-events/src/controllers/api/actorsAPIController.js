@@ -5,13 +5,10 @@ const { Op } = require("sequelize");
 const moment = require('moment');
 
 
-//Aqui tienen otra forma de llamar a cada uno de los modelos
 const Movies = db.Movie;
 const Genres = db.Genre;
 const Actors = db.Actor;
-//---------------------------
-//Dentro del actorsAPIController uso las dos forma de poder llamar a nuestros modelo
-//----------------------------------
+
 const actorsAPIController = {
     'list': (req, res) => {
         db.Actor.findAll()

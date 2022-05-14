@@ -54,7 +54,7 @@ const moviesController = {
                 res.render('recommendedMovies.ejs', {movies});
             });
     },
-    //Aqui dispongo las rutas para trabajar con el CRUD
+    
     add: function (req, res) {
         let promGenres = Genres.findAll();
         let promActors = Actors.findAll();
